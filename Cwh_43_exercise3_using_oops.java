@@ -13,7 +13,7 @@ class guessTheNumber{
     }
 
     public void isNumberCorrect(){
-        Scanner b = new Scanner(System.in);
+        Scanner b = new Scanner(System.in);// used to take input from user
         int n = 0;
         do{
             System.out.print("Enter your Number:- ");
